@@ -85,9 +85,6 @@ The file "fun.exe" downloads.
 
 Bypass any warning boxes, double-click the file, and allow it to run.
 
-On kali give the command exploit
-![8](https://github.com/praveenst13/Compromising-windows-using-Metasploit/assets/118787793/fee0700e-bafd-4e76-af72-f5ac23a5d6ba)
-
 
 To see a list of processes, at the meterpreter > prompt, execute this command:
 ps  ⇒ can see the fun.exe process running with pid 1156
