@@ -115,7 +115,8 @@ keyscan_start	Begins capturing keys typed in the target. On the Windows target, 
 
 
 keyscan_dump	Shows the keystrokes captured so far
-![10](https://github.com/praveenst13/Compromising-windows-using-Metasploit/assets/118787793/785ef849-9095-4065-b38a-54b544a0c440)
+![{970C702A-B8E4-4F86-8022-F68564FCAD87}](https://github.com/user-attachments/assets/42a6d320-d01e-4694-addb-c39220915f08)
+
 
 
 
