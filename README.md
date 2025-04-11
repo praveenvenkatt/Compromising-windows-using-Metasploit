@@ -79,7 +79,8 @@ exploit
 On the target Windows machine, open a Web browser and open this URL, replacing the IP address with the IP address of your Kali machine:
 http://192.168.1.2/fun.exe
 The file "fun.exe" downloads. 
-![8](https://github.com/praveenst13/Compromising-windows-using-Metasploit/assets/118787793/4cf82361-ac00-46ab-92a2-3f09592d98d5)
+![Screenshot 2025-04-07 115416](https://github.com/user-attachments/assets/c77d859f-ec36-4ce5-a9d5-e54633f390c7)
+
 
 
 Bypass any warning boxes, double-click the file, and allow it to run.
