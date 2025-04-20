@@ -89,7 +89,7 @@ Bypass any warning boxes, double-click the file, and allow it to run.
 
 
 To see a list of processes, at the meterpreter > prompt, execute this command:
-ps  ⇒ can see the fun.exe process running with pid 1156
+ps  ⇒ can see the praveen.exe process running with pid 1156
 
 The Metasploit shell is running inside the "praveen.exe" process. If the user closes that process, or logs off, the connection will be lost.
 To become more persistent, we'll migrate to a process that will last longer.
