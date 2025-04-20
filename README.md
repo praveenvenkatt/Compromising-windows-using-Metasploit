@@ -1,4 +1,4 @@
-# EX 8: COMPROMISING WINDOWS USING METASPLOIT
+# EX 6: COMPROMISING WINDOWS USING METASPLOIT
 # Metasploit
 Compromising windows using Metasploit
 
